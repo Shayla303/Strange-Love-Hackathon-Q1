@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  height: 160px;
   background-color: #BF211E;
+  height: 160px;
 }
 
 h1 {
@@ -18,19 +18,19 @@ h1 {
   text-align: center;
 }
 
-p{
-  text-align: center;
+h2{
   font-size: 30px;
+  text-align: center;
 }
 
 img#headerpic {
       height: 150px;
       margin-left: 47px;
       margin-right: auto;
-      margin-top: -189px;
+      margin-top: -122px;
+      position: fixed;
       width: 150px;
   }
-
 
 form {
 display: flex;
@@ -66,4 +66,16 @@ img {
 
 button:focus {
   outline: none;
+}
+
+.dates{
+  display: flex;
+  flex-direction: column;
+}
+
+
+a {
+  font-size: 30px;
+  display: inline;
+  text-align: center;
 }

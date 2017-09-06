@@ -28,10 +28,10 @@ fetch("https://randomuser.me/api/")
     return response.json()
     .then(function(dateContent) {
       var imgTag = document.createElement("img");
-      var dateName = document.createElement("p")
+      var dateName = document.createElement("a")
       var dateCity= document.createElement("p")
       var dateState=document.createElement("p")
-      var dateLastName= document.createElement("p")
+      var dateLastName= document.createElement("a")
       var dateResult = document.getElementsByClassName("dates")[0]
       imgTag.setAttribute('src', dateContent.results["0"].picture.large)
       dateResult.append(imgTag)
